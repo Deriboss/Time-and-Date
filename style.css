@@ -62,6 +62,7 @@ h1{
     font-size: 25px;
     font-weight: 600;
     color: black;
+    display: none;
 }
 @media(max-width:400px){
     main{

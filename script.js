@@ -1,10 +1,15 @@
-function timeshow() {
+function timeshoow() {
     var tim = new Date();
     document.getElementById('displaytime').innerHTML = tim;
-    var timee = setInterval(timeshow, 1000);
+    var timee = setInterval(timeshoow, 1000);
+}
+
+timeshoow();
+
+function timeshow() {
+    document.getElementById('displaytime').style.display = "block";
 }
 
 function timehide() {
-    document.getElementById('displaytime').remove();
-    location.reload();
+    document.getElementById('displaytime').style.display = "none";
 }
